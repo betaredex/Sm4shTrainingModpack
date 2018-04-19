@@ -6,7 +6,7 @@ if len(sys.argv) < 3:
 allChars = sys.argv[1:-1]
 mscFolder = sys.argv[-1]
 
-charsToFix = ["rockman", "szerosuit", "yoshi"]
+charsToFix = ["rockman", "szerosuit", "yoshi", "shulk"]
 aliasDict = {
     "toggleNumVar":0x1200004A,
     "hasEnteredVar":0x1200004B,
